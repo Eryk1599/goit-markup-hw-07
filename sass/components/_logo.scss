@@ -1,0 +1,17 @@
+.logo {
+    font-family: $logo-fontFamily;
+    font-weight: $fontWeight;
+    font-size: $logo-fontSize;
+    text-align: left;
+    &__web {
+        line-height: $web-height;
+        color: $active-color;
+    }
+    &__studio {
+        color: $studio-color;
+        line-height: $studio-height;
+        &__studio--light {
+            color: $main-text-color;
+        }
+    }
+}
