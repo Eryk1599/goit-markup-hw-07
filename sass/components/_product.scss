@@ -11,10 +11,13 @@
         right: 0;
         bottom: 0;
         height: 70px;
+        font-size: $fontSize;
+        font-weight: $fontWeight;
         color: $main-text-color;
         line-height: $product-line;
         padding: 27px;
         text-align: center;
         background-color: $product-title-color;
+        letter-spacing: 0.42px;
     }
 }

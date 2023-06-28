@@ -22,17 +22,13 @@ a {
 body {
     font-family: $fontFamily;
     color: $nav-color;
-    font-weight: $fontWeight;
-    font-size: $fontSize;
-    line-height: $lineHeight;
     margin: 0 auto;
-    letter-spacing: $letterSpacing;
 }
 textarea {
     resize: none;
 }
 ::placeholder {
-    color: $studio-color;
+    color: $placeholder-color;
 }
 footer {
     background-color: $main-backgroundColor;

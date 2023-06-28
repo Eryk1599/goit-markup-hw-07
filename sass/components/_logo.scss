@@ -1,17 +1,24 @@
 .logo {
-    font-family: $logo-fontFamily;
-    font-weight: $fontWeight;
-    font-size: $logo-fontSize;
     text-align: left;
     &__web {
+        font-family: $logo-fontFamily;
+        font-weight: $fontWeight;
+        font-size: $logo-fontSize;
         line-height: $web-height;
         color: $active-color;
     }
     &__studio {
+        font-family: $logo-fontFamily;
+        font-weight: $fontWeight;
+        font-size: $logo-fontSize;
         color: $studio-color;
         line-height: $studio-height;
-        &__studio--light {
-            color: $main-text-color;
-        }
+    }
+    &__studio-footer {
+        font-family: $logo-fontFamily;
+        font-weight: $fontWeight;
+        font-size: $logo-fontSize;
+        color: $main-text-color;
+        line-height: $studio-height;
     }
 }

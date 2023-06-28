@@ -4,8 +4,8 @@
     column-gap: 50px;
     &__details {
         color: $contact-color;
-        font-weight: $nav-weight;
         font-size: $fontSize;
+        font-weight: $nav-weight;
         line-height: $section-title-line;
         text-align: left;
         transition-property: color, fill;

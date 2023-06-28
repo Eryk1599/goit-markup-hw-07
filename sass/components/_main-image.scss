@@ -12,11 +12,12 @@
     padding-top: 200px;
     padding-bottom: 200px;
     &__text {
+        text-align: center;
         color: $main-text-color;
         font-weight: $mainWeight;
         font-size: $mainSize;
         line-height: $main-line;
-        text-align: center;
+        letter-spacing: 2.64px;
         width: 696px;
         margin-bottom: 30px;
     }

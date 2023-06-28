@@ -10,6 +10,7 @@
     &__adress {
         color: $main-text-color;
         font-style: normal;
+        font-size: $fontSize;
         font-weight: $modal-input-weight;
         line-height: $rules-height;
         text-align: left;
@@ -28,6 +29,7 @@
         font-weight: $modal-input-weight;
         font-style: normal;
         line-height: $section-title-line;
+        font-size: $fontSize;
         width: 231px;
         text-align: left;
         margin-top: 9px;
@@ -43,6 +45,7 @@
     &__join-us {
         color: $main-text-color;
         line-height: $section-title-line;
+        font-size: $fontSize;
         width: 113px;
         padding-bottom: 20px;
         margin-top: -25px;
