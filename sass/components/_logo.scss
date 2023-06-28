@@ -13,12 +13,8 @@
         font-size: $logo-fontSize;
         color: $studio-color;
         line-height: $studio-height;
-    }
-    &__studio-footer {
-        font-family: $logo-fontFamily;
-        font-weight: $fontWeight;
-        font-size: $logo-fontSize;
-        color: $main-text-color;
-        line-height: $studio-height;
+        &--footer {
+            color: $main-text-color;
+        }
     }
 }
